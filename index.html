@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Bijouterie Fradj Bouhlel</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&amp;family=Playfair+Display:ital,wght@0,400;0,700;1,400&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#ecb613",
+                        "background-light": "#f8f8f6",
+                        "background-dark": "#221d10",
+                    },
+                    fontFamily: {
+                        "display": ["Manrope", "sans-serif"],
+                        "serif": ["Playfair Display", "serif"]
+                    },
+                    borderRadius: {
+                        "DEFAULT": "0.25rem",
+                        "lg": "0.5rem",
+                        "xl": "0.75rem",
+                        "full": "9999px"
+                    },
+                },
+            },
+        }
+    </script>
+<style>
+        body {
+            font-family: 'Manrope', sans-serif;
+        }
+        .serif-text {
+            font-family: 'Playfair Display', serif;
+        }
+    </style>
+</head>
+<body class="bg-background-light dark:bg-background-dark text-slate-900 dark:text-slate-100 antialiased">
+<!-- Top Navigation -->
+<header class="sticky top-0 z-50 bg-background-light/80 dark:bg-background-dark/80 backdrop-blur-md border-b border-primary/10">
+<div class="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
+<div class="flex items-center gap-12">
+<div class="flex items-center gap-2 group cursor-pointer">
+<span class="material-symbols-outlined text-primary text-3xl">diamond</span>
+<h1 class="text-xl font-extrabold tracking-[0.2em] uppercase">Bijouterie</h1>
+</div>
+<nav class="hidden lg:flex items-center gap-8">
+<a class="text-xs font-semibold uppercase tracking-widest hover:text-primary transition-colors" href="#cole">Collections</a>
+<a class="text-xs font-semibold uppercase tracking-widest hover:text-primary transition-colors" href="#cont">Contact</a>
+</nav>
+</div>
+<div class="flex items-center gap-6">
+<div class="relative hidden md:block">
+<span class="material-symbols-outlined absolute left-3 top-1/2 -translate-y-1/2 text-slate-400 text-sm">search</span>
+<input class="bg-primary/5 border-none rounded-full pl-10 pr-4 py-2 text-sm focus:ring-1 focus:ring-primary w-48 transition-all focus:w-64" placeholder="Search our archives" type="text"/>
+
+</div>
+</header>
+<main>
+<!-- Hero Section -->
+<section class="relative h-[85vh] w-full overflow-hidden flex items-center bg-[#f2efe6]">
+<div class="absolute inset-0 z-0">
+<div class="w-full h-full bg-cover bg-center opacity-90" data-alt="Exquisite diamond necklace on a soft beige minimalist background" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuD3eK9N7Xxun1yROtHIRp5STXpJv2eKV3695UXRtWSDSsITbDrfqwJFkboIhmvMKoRwrK238SQOPYCJLEf_X0o2QuyIVRNXQzJfw7jgbI-W84cVoL3RKY9sYvQq9hwFRQ6H_5iw2DK-Dy_wfHaxdtAxpK3kUMuM35q6EQzxQeHQewaB-nywagfjcIHnXwwaKwk2FaAOK-n2aEY5NO8f7N_inNdfcOUluNFL09BdvpdXxZbZXscuww1SVQVardRayiONLx3TWcLmoaxk');">
+</div>
+<div class="absolute inset-0 bg-gradient-to-r from-[#f2efe6] via-transparent to-transparent"></div>
+</div>
+<div class="relative z-10 max-w-7xl mx-auto px-6 w-full">
+<div class="max-w-2xl space-y-8">
+<h2 class="serif-text text-5xl md:text-7xl leading-tight text-slate-900">The Art of <br/><span class="italic text-primary">Radiance</span></h2>
+<p class="text-lg text-slate-600 max-w-md font-light leading-relaxed">
+                        Discover the Celestial Collection: A masterwork of rare earth diamonds and 24-karat ethically sourced gold.
+                    </p>
+<div class="flex gap-4">
+<button class="bg-primary text-background-dark px-10 py-4 rounded-full font-bold uppercase tracking-widest text-xs hover:scale-105 transition-transform">
+                            Explore Collection
+                        </button>
+<button class="border border-slate-900/10 px-10 py-4 rounded-full font-bold uppercase tracking-widest text-xs hover:bg-white transition-colors">
+                            Private Viewing
+                        </button>
+</div>
+</div>
+</div>
+</section>
+<!-- Featured Collection -->
+<section id="cole" class="py-24 max-w-7xl mx-auto px-6">
+<div class="flex justify-between items-end mb-16">
+<div class="space-y-2">
+<p class="text-primary text-xs font-bold uppercase tracking-[0.3em]">Curated Pieces</p>
+<h3 class="serif-text text-4xl">The Signature Selection</h3>
+</div>
+<a class="text-xs font-bold uppercase tracking-widest border-b-2 border-primary pb-1" href="#">View All Sets</a>
+</div>
+<div  id="cole" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+<!-- Card 1 -->
+<div class="group cursor-pointer">
+<div class="aspect-[3/4] rounded-xl overflow-hidden bg-white shadow-sm mb-6 transition-all duration-500 group-hover:shadow-xl group-hover:-translate-y-2">
+<div class="w-full h-full bg-cover bg-center transition-transform duration-700 group-hover:scale-110" data-alt="Luxury gold ring with a single emerald cut diamond" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuATUj1Sm4Y2M2fE5sDlGmnQcjJzStD3w9fhATTpByc0v9EX3R3yBXzZTIuS2T4cTpdig-cQ2g3JBOKF43lqKhjRtCzvNICrL3Yn2X_Z6Vd-teEJ8eJd5_vfaO1FesVZSGMzuNl_0UYCJjd9C932rEpJ1Rt8FzUT7jcKKQ97qMYyeKQvWWkan0yPdUe71Qt0R2gZBOpAXW8nHm_Odb_81w4bq-x5rDEttopt_g2wVp1hyTjpPxo8MTwKXzClLR309n17LUcEneS-KfvS');"></div>
+</div>
+<div class="text-center space-y-1">
+<h4 class="font-medium text-lg">Serpentine Necklace</h4>
+<p class="text-primary/60 text-sm font-light uppercase tracking-widest">14.5g Fine Gold</p>
+</div>
+</div>
+<!-- Card 2 -->
+<div class="group cursor-pointer">
+<div class="aspect-[3/4] rounded-xl overflow-hidden bg-white shadow-sm mb-6 transition-all duration-500 group-hover:shadow-xl group-hover:-translate-y-2">
+<div class="w-full h-full bg-cover bg-center transition-transform duration-700 group-hover:scale-110" data-alt="Delicate diamond drop earrings against a neutral backdrop" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuD2CvhEIkSmjq79t3tJSZzdDKrI2S_lo5jPOM3roDZZZ425ZE6nzZYDEYnne2jv_HnngDkin-3PEqIBxhzjPAqr_5fIsg_y2otw1CgdryKughzAMTiNgk_07OEhdcxGN5Hc9AV4Ri1nR7elMrZiQfbnB_fIDPkoDR8lRTW-GnuINd2oSVMfaNcIr7oyULDU-CWkiuwwW9gaVj5Mbtj3Q9mUOWNCXYPveBKrsh789YIQVCBYMKHNmF_Gq65puYDvd2uuxDbAET9RwL5Y');"></div>
+</div>
+<div class="text-center space-y-1">
+<h4 class="font-medium text-lg">Starlight Earrings</h4>
+<p class="text-primary/60 text-sm font-light uppercase tracking-widest">8.2g Brilliant Cut</p>
+</div>
+</div>
+<!-- Card 3 -->
+<div class="group cursor-pointer">
+<div class="aspect-[3/4] rounded-xl overflow-hidden bg-white shadow-sm mb-6 transition-all duration-500 group-hover:shadow-xl group-hover:-translate-y-2">
+<div class="w-full h-full bg-cover bg-center transition-transform duration-700 group-hover:scale-110" data-alt="Handcrafted intricate gold bracelet with pearls" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuAbUgs63Fn8Rn1wp5jnJt6mqajme8mdfptOP92WypjdjRop6zMot93ThWwAM8EYr5uTQtmAWfy00SsYPCGSs017pUiSP6Yg6te_LUpBoK2XIs000Aiob4eB1T7pFHt6PfOGXMb6Z-9VrfFX3y-spjFN40SF6wbedxkAPVovV6bNE-nO1Vv_ioDYMD2QOVdv1PYf22ymtSR9l8RYZLjLNcht8Urh1WHIk9OrYs0deIkQpMyfqCbIWFG6cxF97T86RRicuVztpjiy-r7v');"></div>
+</div>
+<div class="text-center space-y-1">
+<h4 class="font-medium text-lg">Ethereal Bracelet</h4>
+<p class="text-primary/60 text-sm font-light uppercase tracking-widest">12.1g Akoya Pearl</p>
+</div>
+</div>
+<!-- Card 4 -->
+<div class="group cursor-pointer">
+<div class="aspect-[3/4] rounded-xl overflow-hidden bg-white shadow-sm mb-6 transition-all duration-500 group-hover:shadow-xl group-hover:-translate-y-2">
+<div class="w-full h-full bg-cover bg-center transition-transform duration-700 group-hover:scale-110" data-alt="Modern geometric rose gold ring with small diamonds" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuCyxfEbeVR0TAuPMxFvDf7OFu1RajqCAN4MUIC8OODNWj4xsQuSnCnirMjUZIsJLxm5jFYZdGmGnGBJz4ugTCpSb1pxQctU2Q834-RqJbGzh9r_6SVFnwT4bH8Krs-Pf69eIdAyGgsXWxV6L2m0DGs_PoKyXeEIukrFjIoIVPqwMy0Q1hXnFDvpdJ449piZLgUo2xQx2CtiycHNmM09qS2Qv01HK3tHNvoEBeYoJ8sHswvLzJTTLvyrfdSOHkcosLRBocCIUzngT9wk');"></div>
+</div>
+<div class="text-center space-y-1">
+<h4 class="font-medium text-lg">Luna Ring</h4>
+<p class="text-primary/60 text-sm font-light uppercase tracking-widest">5.4g Rose Gold</p>
+</div>
+</div>
+</div>
+</section>
+<!-- About Us Section -->
+<section class="bg-primary/5 py-24">
+<div class="max-w-7xl mx-auto px-6 flex flex-col lg:flex-row items-center gap-16">
+<div class="lg:w-1/2">
+<div class="relative">
+<div class="w-full aspect-square rounded-2xl overflow-hidden shadow-2xl">
+<div class="w-full h-full bg-cover bg-center" data-alt="Artisan jeweler meticulously working on a piece in a workshop" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuBXq9GmFNlGyMlrvL7NQaQCaHEzIvVWtukyNh4MifBn_6UF3NhLyK04F9BpRLwdRhOVEqnxOk22sWml5yz1dWPyLzG-pcT8z7aElN32hfCM0T83UDHr4VO6S2lNCe3KLMgINQNCaBissTVGttdbQDEVY5qgAycfIjSVRCGmVfvNnGmUJh2Q0T0r3PQz3LEetkALK2Pm6PKqfb-FYX_6PBoL4XJ53i2kOjtVlf-tdcVLJEQaw9YGwQn3lDCna1JDlp8umRzmFuPgeosX');"></div>
+</div>
+<div class="absolute -bottom-8 -right-8 bg-white p-8 rounded-xl shadow-lg hidden md:block">
+<p class="serif-text italic text-3xl text-primary">Est. 1984</p>
+</div>
+</div>
+</div>
+<div class="lg:w-1/2 space-y-8">
+<p class="text-primary text-xs font-bold uppercase tracking-[0.3em]">Our Story</p>
+<h3 class="serif-text text-5xl leading-tight">Mastery in Every <br/>Meticulous Detail</h3>
+<div class="space-y-6 text-slate-600 font-light leading-relaxed">
+<p>For four decades, Aurum &amp; Co. has stood as a bastion of exceptional craftsmanship and timeless design. Each piece is born in our historic atelier, where master jewelers blend heritage techniques with avant-garde vision.</p>
+<p>We believe that fine jewelry is more than an adornment; it is a legacy. Our commitment to ethical sourcing and recycled precious metals ensures that your most cherished pieces honor both the past and the future.</p>
+</div>
+<button class="flex items-center gap-3 text-xs font-bold uppercase tracking-widest hover:text-primary transition-colors">
+                        Learn about our process
+                        <span class="material-symbols-outlined text-sm">arrow_forward</span>
+</button>
+</div>
+</div>
+</section>
+<!-- Visit Our Boutique -->
+<section id="cont" class="py-24 max-w-7xl mx-auto px-6">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+<div class="lg:col-span-5 space-y-10">
+<div class="space-y-4">
+<p class="text-primary text-xs font-bold uppercase tracking-[0.3em]">Locations</p>
+<h3 class="serif-text text-4xl">Visit Our Bijouterie<br/>Boutique</h3>
+</div>
+<div class="space-y-6">
+<div class="flex items-start gap-4">
+<span class="material-symbols-outlined text-primary">location_on</span>
+<div>
+<h5 class="font-bold uppercase text-xs tracking-widest mb-1">Address</h5>
+<p class="text-slate-600 font-light">M'saken</p>
+</div>
+</div>
+<div class="flex items-start gap-4">
+<span class="material-symbols-outlined text-primary">schedule</span>
+<div>
+<h5 class="font-bold uppercase text-xs tracking-widest mb-1">Boutique Hours</h5>
+<p class="text-slate-600 font-light">Mon - Sat: 10:00 AM - 7:00 PM</p>
+<p class="text-slate-600 font-light">Sun: 12:00 PM - 5:00 PM</p>
+</div>
+</div>
+<div class="flex items-start gap-4">
+<span class="material-symbols-outlined text-primary">call</span>
+<div>
+<h5 class="font-bold uppercase text-xs tracking-widest mb-1">Concierge</h5>
+<p class="text-slate-600 font-light">+216 </p>
+<p class="text-slate-600 font-light">concierge@aurumandco.com</p>
+</div>
+</div>
+</div>
+<button class="w-full md:w-auto bg-slate-900 text-white px-10 py-4 rounded-full font-bold uppercase tracking-widest text-xs hover:bg-primary transition-colors">
+                        Book An Appointment
+                    </button>
+</div>
+<div class="lg:col-span-7 h-[500px] rounded-2xl overflow-hidden shadow-sm relative group">
+<div class="w-full h-full bg-cover bg-center grayscale hover:grayscale-0 transition-all duration-1000" data-alt="Exterior view of a luxury jewelry boutique in New York" data-location="New York City" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuDW3Vw63gFMUbpgaVHZL_YbucQ_sWeNbKPyuUCEK13y_xToMo7T3osiC7og1A-wCUa0Wt2yjVPqKUM9FNKFTeFVKLf4NHhnPnzXRrcWyuJZKRlktX4iQNyPNj2tncZ7CgZez36skUi0mNOb5xhhDdxTB9SxHMVSL1tvhR4FEIImuxMOhPUcKPpKTlv8zvaozU_ysYZwLE_1vbdUkhrvyzQBJoGt0mAB2pvMmk1UV7sybTRABlNSrD0cUFPtxFzdf1GnZQjKQdJMODrY');"></div>
+<div class="absolute inset-0 pointer-events-none border-[12px] border-white/20"></div>
+</div>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="bg-background-dark text-slate-400 py-16 border-t border-white/5">
+<div class="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
+<div class="space-y-6">
+<div class="flex items-center gap-2 text-white">
+<span class="material-symbols-outlined text-primary text-2xl">diamond</span>
+<h2 class="text-lg font-extrabold tracking-[0.2em] uppercase">Aurum &amp; Co.</h2>
+</div>
+<p class="text-sm font-light leading-relaxed">Defining elegance since 1984. Our dedication to the craft remains as pure as the elements we use.</p>
+<div class="flex gap-4">
+<a class="hover:text-primary transition-colors" href="#"><span class="material-symbols-outlined text-lg">public</span></a>
+<a class="hover:text-primary transition-colors" href="#"><span class="material-symbols-outlined text-lg">camera</span></a>
+<a class="hover:text-primary transition-colors" href="#"><span class="material-symbols-outlined text-lg">mail</span></a>
+</div>
+</div>
+<div class="space-y-6">
+<h5 class="text-white font-bold uppercase text-xs tracking-widest">Collections</h5>
+<ul class="space-y-3 text-sm font-light">
+<li><a class="hover:text-white transition-colors" href="#">The Celestial Collection</a></li>
+<li><a class="hover:text-white transition-colors" href="#">Bespoke Engagement</a></li>
+<li><a class="hover:text-white transition-colors" href="#">Timepieces</a></li>
+<li><a class="hover:text-white transition-colors" href="#">Heritage Archive</a></li>
+</ul>
+</div>
+<div class="space-y-6">
+<h5 class="text-white font-bold uppercase text-xs tracking-widest">Services</h5>
+<ul class="space-y-3 text-sm font-light">
+<li><a class="hover:text-white transition-colors" href="#">Private Viewings</a></li>
+<li><a class="hover:text-white transition-colors" href="#">Jewelry Care</a></li>
+<li><a class="hover:text-white transition-colors" href="#">Gift Consultations</a></li>
+<li><a class="hover:text-white transition-colors" href="#">Repair &amp; Restoration</a></li>
+</ul>
+</div>
+<div class="space-y-6">
+<h5 class="text-white font-bold uppercase text-xs tracking-widest">Newsletter</h5>
+<p class="text-sm font-light">Join our circle for exclusive collection previews and invitations.</p>
+<div class="flex">
+<input class="bg-white/5 border-none rounded-l-lg py-3 px-4 text-sm w-full focus:ring-1 focus:ring-primary" placeholder="Your email" type="email"/>
+<button class="bg-primary text-background-dark px-4 rounded-r-lg hover:bg-primary/90 transition-colors">
+<span class="material-symbols-outlined">chevron_right</span>
+</button>
+</div>
+</div>
+</div>
+<div class="max-w-7xl mx-auto px-6 mt-16 pt-8 border-t border-white/5 flex flex-col md:flex-row justify-between text-[10px] uppercase tracking-widest">
+<p>© 2024 Aurum &amp; Co. High Jewelry House. All Rights Reserved.</p>
+<div class="flex gap-6 mt-4 md:mt-0">
+<a class="hover:text-white transition-colors" href="#">Privacy Policy</a>
+<a class="hover:text-white transition-colors" href="#">Terms of Service</a>
+<a class="hover:text-white transition-colors" href="#">Accessibility</a>
+</div>
+</div>
+</footer>
+</body></html>
